@@ -9,7 +9,7 @@ class LambdaCronStack(core.Stack):
     def __init__(self, app: core.App, id: str) -> None:
         super().__init__(app, id)
 
-        with open("templates/lambda-handler.py", encoding="utf8") as fp:
+        with open("lambdas/lambda-handler.py", encoding="utf8") as fp:
             handler_code = fp.read()
 
         lambdaFn = lambda_.Function(
