@@ -1,4 +1,5 @@
 sceptre
+pyyaml
 aws-cdk.aws-events
 aws-cdk.aws-events-targets
 aws-cdk.aws-lambda
